@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: aqua;
+            
+        }
+        .container:hover{
+            background-color: brown;
+        }
+
+    </style>
+
+   
+</head>
+<body>
+   <div class="container">
+    <div class="card" id="name">
+        <h1> Welcome to the UNIMART </h1>
+    </div>
+   <div>
+       <img {{ url('https://png.pngtree.com/element_our/20190531/ourmid/pngtree-shopping-cart-convenient-icon-image_1287807.jpg', []) }} src="https://png.pngtree.com/element_our/20190531/ourmid/pngtree-shopping-cart-convenient-icon-image_1287807.jpg" alt="">
+   </div>
+
+   <div> <button> order </button>
+   </div>
+   </div>
+
+   <script>
+    name  = document.getElementById("name");
+    document.name  = document.getElementById("name");
+    name.src = "https://thumbs.dreamstime.com/b/shopping-cart-vector-icon-market-trolley-basket-sign-e-commerce-marketing-symbol-design-illustration-web-ui-app-384486630.jpg";
+    name.classlist.add("name");
+   </script>
+ 
+</body> 
+</html>
