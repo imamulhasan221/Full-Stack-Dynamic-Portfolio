@@ -1,0 +1,30 @@
+.hedaer{
+    text-align: center;
+    background-color: #e5e5e5;
+    padding: 15px;
+}
+.lower_header_left{
+    padding-top: 20px;
+    color:black;
+}
+.lower_header_left h3{
+    color:red;
+}
+.project{
+    background-color: #e5e5e5;
+    padding: 35px;
+}
+.project h3{
+    color: red;
+    
+}
+.project h3 :hover{
+    color: blueviolet;
+}
+.footer{
+    text-align: center;
+    text-decoration: none;
+}
+.btn{
+    justify-content:center;
+}
